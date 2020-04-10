@@ -14,7 +14,7 @@ OUTBOX
 
 0 case
 
-## Niveau 1
+## Niveau 2
 
 Prenez chaque éléments de **INBOX** (entrée) et déposer les tous dans **OUTBOX** (sortie).
 
@@ -29,3 +29,4 @@ JUMP
 ##### Mémoire
 
 0 case
+
