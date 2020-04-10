@@ -30,3 +30,20 @@ JUMP
 
 0 case
 
+
+## Niveau 3
+
+Ignore l'**INBOX** pour le moment, envoyer juste les 3 lettres suivantes dans **OUTBOX**: BUG.
+
+##### Mémoire
+
+6 cases mémoire avec des lettres
+
+##### Jeu d'instructions
+
+```
+INBOX
+OUTBOX
+COPYFROM
+JUMP
+```
