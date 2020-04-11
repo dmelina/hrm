@@ -37,7 +37,7 @@ Ignore l'**INBOX** pour le moment, envoyer juste les 3 lettres suivantes dans **
 
 ##### Mémoire
 
-6 cases mémoire avec des lettres
+6 cases mémoires avec des lettres.
 
 ##### Jeu d'instructions
 
@@ -46,4 +46,28 @@ INBOX
 OUTBOX
 COPYFROM
 JUMP
+```
+
+### Niveau 40
+
+Pour chaques objets dans **INBOX**, envoyez ces facteurs premiers dans **OUTBOX**, du plus petit au plus grand.
+
+##### Mémoire
+
+24 cases mémoires avec `0` sur 23
+
+##### Jeu d'instructions
+
+```
+INBOX
+OUTBOX
+COPYFROM []
+COPYTO []
+ADD []
+SUB []
+BUMPUP []
+BUMPDN []
+JUMP
+JUMPZ
+JUMPN
 ```
