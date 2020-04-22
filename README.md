@@ -1,4 +1,4 @@
-# Human Resource Machine
+# Human Resource Machine (my) Solution
 
 ## Niveau 1
 
